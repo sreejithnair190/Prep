@@ -1,3 +1,4 @@
+package Leetcode.Easy;
 //Find Smallest Letter Greater Than Target
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 //You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters.

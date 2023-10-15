@@ -1,3 +1,5 @@
+package Algorithms.Searching.BinarySearch;
+
 public class CeilingOfANumber {
     public static void main(String[] args) {
         int[] arr = {2, 4, 6, 17, 18, 29, 35, 45, 76, 78, 89, 97};
