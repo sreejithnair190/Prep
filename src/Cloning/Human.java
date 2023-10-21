@@ -1,4 +1,4 @@
-package cloning;
+package Cloning;
 
 import java.util.Arrays;
 
