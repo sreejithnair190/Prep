@@ -1,4 +1,4 @@
-package Leetcode.Easy;
+package Leetcode.Easy.BinarySearch;
 // Number of steps to reduce a number to zero
 //https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 //Given an integer num, return the number of steps to reduce it to zero.

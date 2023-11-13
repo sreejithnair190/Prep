@@ -1,4 +1,4 @@
-package Leetcode.Medium;//Facebook
+package Leetcode.Medium.BinarySearch;//Facebook
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 // Find First and Last Position of Element in Sorted Array
 
