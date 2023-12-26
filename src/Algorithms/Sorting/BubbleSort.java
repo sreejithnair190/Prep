@@ -6,7 +6,8 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = { 3, 4, 5, 2, 1};
-        sort(arr);
+//        sort(arr);
+        recursive(arr, arr.length - 1, 0);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -22,6 +23,22 @@ public class BubbleSort {
                 }
             }
             if (!swapped) break;
+        }
+    }
+
+    static void recursive(int [] arr, int e, int s){
+        if (e == 0) return;
+
+        if (s < e){
+            if (arr[s] > arr[s + 1]){
+                int temp = arr[s];
+                arr[s] = arr[s + 1];
+                arr[s + 1] = temp;
+            }
+            recursive(arr, e, s + 1);
+        }else{
+            recursive(arr, e - 1, 0);
+
         }
     }
 }
